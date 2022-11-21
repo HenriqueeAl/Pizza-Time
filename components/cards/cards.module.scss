@@ -1,0 +1,72 @@
+.card:hover{
+  box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+  
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    margin-bottom: 50px;
+    @media (max-width: 360px) {
+      width: 230px;
+    }
+
+    img{
+      margin-top: 20px;
+      border-radius: 120px;
+      @media (max-width: 360px) {
+        width: 180px;
+      }
+    }
+    p{
+      font-weight: 600;
+      font-size: 24px;
+      @media (max-width: 360px) {
+        font-size: 20px;
+      }
+    }
+    .description{
+      padding: 10px;
+      font-weight: 300;
+      font-size: 14px;
+      color: #333333;
+      @media (max-width: 360px) {
+        font-size: 11px;
+      }
+    }
+    .price{
+      font-weight: 600;
+      font-size: 24px;
+      color: #05A84B;
+      @media (max-width: 360px) {
+        font-size: 20px;
+      }
+    }
+
+    select{
+      width: 80%;
+      height: 40px;
+      padding: 10px;
+      outline: none;
+      border: 1px solid #4F4F4F;
+      border-radius: 25px;
+      margin-bottom: 20px;
+      color: #333333;
+    }
+
+    button{
+      width: 80%;
+      height: 40px;
+      background: #EC0000;
+      border-radius: 25px;
+      color: white;
+      border: none;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  }
