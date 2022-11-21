@@ -1,11 +1,11 @@
 ## Tecnologias usadas no projeto.
 
-# Next.Js
+ Next.Js
 
-# TypeScript.
+ TypeScript.
 
-# Sass.
+ Sass.
 
 ## Uma Landing Page.
 
-# Figma: https://www.figma.com/community/file/1120548508650435658
+ Figma: https://www.figma.com/community/file/1120548508650435658
